@@ -365,12 +365,6 @@ firefox_spotify() {
 }
 
 #|-----< Script start >-----|#
-cat<<"EOF"
-
-Robi Megbasz Mate
-
-EOF
-
 #|-----< Check Distro >-----|#
 DISTRO=$(awk -F= '/^ID=/{print $2}' /etc/os-release | tr -d '"')
 
